@@ -1,3 +1,5 @@
-a = "test"
+a = "Life is too short, You need Python"
 
-print(a)
+b = a[0]+a[1]
+
+print(b)
