@@ -1,69 +1,68 @@
-# a = 123
+a = 123
 
-# b = 3
+b = 3
 
-# a = 5
+a = 5
 
-# c = 1.4
+c = 1.4
 
-# print(a + c)
+print(a + c)
 
-# print(a * b)
+print(a * b)
 
-# # print(a ** b) 거듭제곱
+# print(a ** b) 거듭제곱
 
-# # print(a % b) 나머지 반환
+# print(a % b) 나머지 반환
 
-# # print(7 // 4) 몫 반환
+# print(7 // 4) 몫 반환
 
-# print(14 % 3)
+print(14 % 3)
 
 
-# food = "Python's favorite food is perl"
+food = "Python's favorite food is perl"
 
-# print(food)
+print(food)
 
-# say = '"Python is very easy" he says'
+say = '"Python is very easy" he says'
 
-# print(say)
+print(say)
 
-# say1 = "\" Python is very easy. \" he says"
+say1 = "\" Python is very easy. \" he says"
 
-# print(say1)
+print(say1)
 
-# multiline = "Life is too short\nYou need python"
+multiline = "Life is too short\nYou need python"
 
-# print(multiline)
+print(multiline)
 
-# multiline1 = '''Life is too short
-# You need python'''
+multiline1 = '''Life is too short
+You need python'''
 
-# print(multiline1)
+print(multiline1)
 
-# say2 = "i will python\nkeep going"
+say2 = "i will python\nkeep going"
 
-# say3 = '''i want hope doing well
-# in Python'''
+say3 = '''i want hope doing well
+in Python'''
 
-# print(say2)
-# print(say3)
+print(say2)
+print(say3)
 
-# head = "Python"
+head = "Python"
 
-# tail = "is fun!"
+tail = "is fun!"
 
-# print(head + tail)
+print(head + tail)
 
-# a = "python"
+a = "python"
 
-# print(a * 2)
+print(a * 2)
 
-# print("=" * 50)
-# print("multistring test")
-# print("=" * 50)
+print("=" * 50)
+print("multistring test")
+print("=" * 50)
 
-# print(len(a))
-
+print(len(a))
 
 a = "Life is too short, You need Python"
 
@@ -111,4 +110,43 @@ number = 3
 day = 10
 print("i eat %d apples. so i was sick for %s days" %(number, day))
 
-print("error is %d%%" %98)
+# print("error is %d%%" %98) %2개 사용
+
+
+kk = "%-10s"%"Python"
+
+print(kk)
+
+print("%0.4f"%3.14592138)
+
+print("%20.5f"%5.5648913289)
+
+print("I eat {0} apples" .format(3))
+
+number = 10
+
+day = "   It will three people coming, They open the road of darkness"
+
+print("I ate {0} apples, so i was sick for {1}" .format(number, day))
+
+print(day.count("e"))
+
+print(day.find("h"))
+
+print(day.index("t"))
+
+print(",".join("abcd"))
+
+print(day.upper())
+
+print(day.lower())
+
+print(day.lstrip())
+
+print(day.rstrip())
+
+a = "Life is too short"
+
+print(a.replace("Life", "Your leg"))
+
+print(a.split())
