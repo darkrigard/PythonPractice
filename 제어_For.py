@@ -45,6 +45,9 @@ for i in range(2,10):
     for j in range(1,10):
         print(i*j, end =" ")
     print(' ')
+# print 함수에 end 파라미터를 설정한 이유는 해당 결괏값을 출력할 때 다음줄로 넘기지 않고 그 줄에 계속해서 출력하기 위해서이다.
+# print 문의 end 매개변수에는 디폴트로 줄바꿈 문자(\n)가 세팅되어 있다.
+
 
 a = [1,2,3,4]
 result = []
