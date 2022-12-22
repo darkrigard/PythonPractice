@@ -20,3 +20,7 @@ print("life", "is", "too short")
 
 for i in range(10):
     print(i, end=' ')
+
+# end 매개변수의 초깃값은 줄바꿈(\n) 문자이다.
+
+
