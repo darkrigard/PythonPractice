@@ -46,3 +46,5 @@ print(s1)
 s1.remove(20)
 
 print(s1)
+
+s12 = set([])
