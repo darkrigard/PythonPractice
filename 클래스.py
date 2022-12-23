@@ -72,6 +72,11 @@ class SafeFourCal(FourCal):
         else:
             return self.first / self.second
 
+# SafeFourCal 클래스는 FourCal 클래스에 있는 div 메서드를 동일한 이름으로 다시 작성하였다. 
+# 이렇게 부모 클래스(상속한 클래스)에 있는 메서드를 동일한 이름으로 다시 만드는 것을 메서드 오버라이딩(Overriding, 덮어쓰기)이라고 한다. 
+# 이렇게 메서드를 오버라이딩하면 부모클래스의 메서드 대신 오버라이딩한 메서드가 호출된다.
+
+
 a = FourCal()
 
 a.setdata(4, 2)
@@ -98,7 +103,24 @@ c.setdata(4,0)
 
 print(c.div())
 
+class Family:
+    lastname = "박"
 
+# 클래스 변수 값을 변경했더니 클래스로 만든 객체의 lastname 값도 모두 변경됨. 
+# 즉 클래스 변수는 클래스로 만든 모든 객체에 공유된다는 특징이 있다.
+
+print(Family.lastname)
+
+d = Family()
+e = Family()
+
+print(d.lastname)
+print(e.lastname)
+
+d.lastname = "최"
+
+print(d.lastname)
+print(Family.lastname)
 
 
 
