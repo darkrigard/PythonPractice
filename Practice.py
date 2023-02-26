@@ -1,54 +1,13 @@
-class FourCal:
+# from mod1 import add, sub
 
-    def __init__(self, first, second):
-        self.first = first
-        self.second = second
+# print(add(10,5))
 
-    def add(self):
-        result = self.first + self.second
-        return result
-    
-    def sub(self):
-        result = self.first - self.second
-        return result
-    
-    def div(self):
-        if self.second == 0:
-            return 0
-        
-        else:
-            result = self.first / self.second
-            return result
-    def mul(self):
-        result = self.first * self.second
-        return result
+# print(sub(10,2))
 
-class MoreFourCal(FourCal):
+# import mod2
 
-    def pow(self):
-        result = self.first ** self.second
-        return result
+# print(mod2.Math.add(5,2))
 
-class SafeFourCal(MoreFourCal):
+import sys
 
-    def mul(self):
-        if self.first > 100:
-            return "숫자가 너무 큽니다."
-        else:
-            result = self.first * self.second
-            return result
-        
-
-a = SafeFourCal(101, 6)
-
-print(a.add())
-
-print(a.div())
-
-print(a.mul())
-
-print(a.sub())
-
-print(a.pow())
-
-
+sys.path.append("/Users/choiwoojin/Desktop/PythonPractice/Mymod")
